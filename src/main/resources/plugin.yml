@@ -1,0 +1,15 @@
+name: TheRaidGame
+version: '${project.version}'
+main: me.trg.theraidgame.RaidGame
+api-version: 1.16
+commands:
+  raid:
+    description: Start the Raid Game.
+  raidstop:
+    description: Stop the Raid Game. Operator only command.
+  bal:
+    description: Check Player's Balance.
+  rshop:
+    description: Open's the exquisite Raid-Shop.
+  rmoney:
+    description: Add or subtract money.Queries <add> <remove> <clear>
